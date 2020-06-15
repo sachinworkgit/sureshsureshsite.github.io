@@ -1,0 +1,349 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.global-wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.my-site__global-head-text {
+    font-size: 65px;
+    font-weight: 700;
+    color: #1c1c1d;
+    margin-bottom: 45px;
+    position: relative;
+}
+.my-site__global-head-text::before {
+    content: "";
+    position: absolute;
+    left: 46%;
+    bottom: 0;
+    width: 10%;
+    height: 4px;
+    background-color: #1c1c1d;
+}
+.my-site__global-head-text span {
+    color: #dd4343;
+    border-color: #dd4343;
+} 
+/* !-Global Styles-! */
+
+/* Top Section Styles */
+.my-site__top-wrap {
+    float: left;
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    background: url("../images/sachin-suresh-profile-image.jpg") no-repeat center;
+    background-size: cover;
+}
+.my-site__top-wrap::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/dots-image.png");
+}
+
+/* Navbar Style */
+.my-site__top-wrap .navbar-brand  {
+    font-size: 30px;
+    font-weight: 900;
+    color: #dd4343;
+    text-transform: uppercase;
+}
+.my-site__top-wrap .nav-item {
+    margin: 0 12px;
+}
+.my-site__top-wrap .navbar-nav .nav-link {
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+    border-bottom: 4px solid transparent;
+    padding: 4px 0;
+}
+.my-site__top-wrap .nav-item.active .nav-link,
+.my-site__top-wrap .nav-item .nav-link:hover {
+    color: #dd4343;
+    border-color: #dd4343;
+}
+.my-site__top-wrap .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+/* Carousel Styles */
+.my-site__carousel {
+    float: left;
+    width: 100%;
+    min-height: calc(100vh - 71px);
+    position: relative;
+}
+.my-site__carousel .carousel-inner {
+    height: calc(100vh - 71px);
+}
+.my-site__carousel .carousel-item {
+    height: 70%;
+}
+.my-site__carousel .carousel-caption h2 {
+    font-size: 60px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+.my-site__carousel .carousel-caption h2 span {
+    display: block;
+    color: #dd4343;
+}
+.my-site__carousel .carousel-caption p {
+    font-size: 24px;
+    color: #ffffff;
+}
+.my-site__carousel .carousel-caption p a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+.my-site__carousel .carousel-caption p a:hover {
+    color: #dd4343;
+    cursor: pointer;
+}
+.my-site__carousel .carousel-control-prev:hover svg path,
+.my-site__carousel .carousel-control-next:hover svg path {
+    fill: #ffffff;
+}
+/* !-Carousel Styles-! */
+
+/* !-Top Section Styles-! */
+
+/* About Section Styles */
+.my-site__about-wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 75px 0;
+}
+.my-site__address-wrap {
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 62px 20px 38px 20px;
+    background: url("../images/sachin-suresh-image5.jpg") no-repeat;
+    background-size: cover;
+}
+.my-site__address-wrap::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("../images/dots-image.png");
+}
+.my-site__address-list {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    word-wrap: break-word;
+    text-align: left;
+}
+.my-site__address-wrap:hover .my-site__address-list {
+    opacity: 0.5;
+}
+.address-list-label {
+    font-size: 22px;
+    font-weight: 700;
+    color: #f4f4f4;
+    margin-bottom: 0;
+}
+.address-list-text {
+    font-size: 20px;
+    font-weight: 300;
+    color: #f4f4f4;
+    margin-bottom: 0;
+}
+.my-site__info-wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+    text-align: left;
+}
+.my-site__info-head {
+    font-size: 40px;
+    font-weight: 500;
+    color: #dd4343;
+    text-transform: uppercase;
+    margin: 0 0 25px 0;
+}
+.my-site__info-list {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.my-site__info-list h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: #1c1c1d;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    border-bottom: 2px dashed #dd4343;
+}
+.my-site__info-list h5 span {
+    font-weight: 300;
+}
+.my-site__info-list p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #1c1c1d;
+    text-transform: capitalize;
+}
+.my-site__info-list p a,
+.my-site__info-list p i {
+    color: #dd4343;
+}
+.my-site__info-list p span {
+    text-transform: none;
+    color: #dd4343;
+}
+.my-site__info-wrap .btn-outline-danger {
+    color: #dd4343;
+    border-color: #dd4343;
+    margin: 10px 0 0 0;
+}
+.my-site__info-wrap .btn-outline-danger:hover {
+    color: #fff;
+    background-color: #dd4343;
+    border-color: #dd4343;
+}
+/* !-About Section Styles-! */
+
+/* My Skills Section Styles */
+.my-site__skills-wrap {
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    padding: 45px 0;
+    text-align: center;
+    background: url("../images/sachin-suresh-parallax-image.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.my-site__skills-wrap::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #403f3fa1;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.my-site__skills-inner-wrap {
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    text-align: left;
+    padding: 30px 25px;
+    background-color: #ffffff20;
+    border-radius: 8px;
+}
+.my-site__skills-inner-wrap:hover {
+    box-shadow: 0 0 4px 0px rgba(255, 255, 255, 0.6);
+}
+.my-site__skills-inner-wrap h5 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    position: relative;
+    padding-bottom: 5px;
+    margin: 0 0 30px 0;
+}
+.my-site__skills-inner-wrap h5::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 15%;
+    height: 3px;
+    background-color: #dd4343;
+}
+.my-site__skills-inner-wrap p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+.my-site__skills {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.my-site__skills h6 {
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0 0 10px 0;
+}
+.my-site__skills .progress {
+    background-color: #ffffff40;
+}
+.my-site__hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+}
+.my-site__hobbies i {
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    border: 4px solid #000000;
+    border-radius: 50%;
+}
+.my-site__hobbies i.coding {
+    border-color: #e91e63;
+}
+.my-site__hobbies i.cricket {
+    border-color: #007bff;
+}
+.my-site__hobbies i.music {
+    border-color: #d39e00;
+}
+.my-site__hobbies i.travelling {
+    border-color: #a72ed2;
+}
+.my-site__hobbies i.coding svg path,
+.my-site__hobbies i.coding svg circle {
+    fill: #e91e63;
+}
+.my-site__hobbies i.cricket svg path,
+.my-site__hobbies i.cricket svg circle {
+    fill: #007bff;
+}
+.my-site__hobbies i.music svg path,
+.my-site__hobbies i.music svg circle {
+    fill: #d39e00;
+}
+.my-site__hobbies i.travelling svg path,
+.my-site__hobbies i.travelling svg circle {
+    fill: #a72ed2;
+}
+.my-site__hobbies h6 {
+    font-size: 20px;
+    font-size: 400;
+    color: #ffffff;
+    margin: 10px 0 0 0;
+}
+/* !-My Skills Section Styles-! */
