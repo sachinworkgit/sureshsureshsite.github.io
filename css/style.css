@@ -215,6 +215,7 @@ body {
 .my-site__info-wrap .btn-outline-danger {
     color: #dd4343;
     border-color: #dd4343;
+    background-color: transparent;
     margin: 10px 0 0 0;
 }
 .my-site__info-wrap .btn-outline-danger:hover {
@@ -393,3 +394,24 @@ body {
     height: 100%;
 }
 /* !-Portfolio Section Styles-! */
+
+/* Contact Section Styles */
+.my-site__contact-wrap {
+    float: left;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding: 45px 0;
+}
+.my-site__contact-wrap .btn-danger {
+    padding: 6px 42px;
+    color: #ffffff;
+    background-color: #dd4343;
+    border-color: #dd4343;
+}
+.my-site__contact-wrap .btn-danger:hover {
+    background-color: transparent;
+    border-color: #dd4343;
+    color: #dd4343;
+}
+/* !-Contact Section Styles-! */
